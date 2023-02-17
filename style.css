@@ -193,6 +193,13 @@ color: #000000;
   align-items: center;
   gap:30px ;
 }
+@media(max-width: 720px){
+  .depoimento-item{
+
+    grid-template-columns: 1fr;
+ 
+  }
+}
 .depoimento-item span{
   margin-top:10px ;
   display: block;
